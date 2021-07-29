@@ -1,4 +1,4 @@
-*{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,13 +6,13 @@
 
 @font-face {
   font-family: "OpenSans Regular"; 
-  src: url("fonts\OpenSans-Regular.woff") format('woff');
+  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff") format('woff');
   font-weight: 400;
 } 
 
 @font-face {
   font-family: "OpenSans Bold"; 
-  src: url("fonts\OpenSans-Bold.woff") format('woff');
+  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff") format('woff');
   font-weight: 700;
 } 
 
@@ -107,6 +107,11 @@ body {
   text-transform: uppercase;
   font-family: "OpenSans Bold", sans-serif;
   font-size: 20px;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
 }
 
 .heading-trend::after {
@@ -218,10 +223,6 @@ body {
   z-index: 1; 
 }
 
-.block {
-  display: flex;
-  justify-content: space-between;
-}
 
 .trend-text {
   z-index: 3;
