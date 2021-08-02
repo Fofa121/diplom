@@ -590,19 +590,21 @@ body {
 .product-block {
   display: flex;
   justify-content: space-between;
-
 }
 
 .product-post {
-  height: 440px;
-  display: flex;  
-  flex: grow;
   height: 500px;
 }
 
 .product-information {
   border: solid 3px #d3c59d;
-  width: 300px;
+  width: 347px;
+  display: flex;
+  flex: 1;
+  min-height: 320px;
+  flex-direction: column;
+  margin: -30px -25px 0 -25px;
+  padding: 60px 25px 0 25px;
 }
 
 .product-subject-link {
@@ -628,6 +630,21 @@ body {
 .product-footer {
   display: flex;
   justify-content: space-between;
+}
+
+.product-price-old {
+  font-size: 14px;
+  font-family: "OpenSans Bold", sans-serif;  
+}
+
+.product-prices {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-price {
+  font-size: 20px;
+  font-family: "OpenSans Bold", sans-serif;  
 }
 
 .heading-product {
